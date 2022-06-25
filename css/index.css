@@ -192,6 +192,7 @@
   height:350px;
   object-fit: cover;
   margin-top:5%;
+  margin-left:10%;
 }
 
 .service_text {
@@ -203,7 +204,7 @@
 .service_text h4, 
 .service_txt {
   text-align:left;
-  display:inline-block;
+  margin-left: 15%;
 }
 
 .service_btn {
@@ -219,8 +220,12 @@
 }
 
 .service_text p {
-  width:70%;
+  width:60%;
   margin-bottom:10%;
+}
+
+.service_btn {
+  margin-left:15%;
 }
 
 /*WORKS
@@ -240,19 +245,19 @@
   margin:0 auto;
   padding:5% 0;
   
-  
 }
 
 .work_ttl {
-  display:block;
-  margin-bottom:20%;
+  display:inline-block;
+  
 }
 
 .works_inner_1 p {
   width: 80%;
-  margin-top:20%;
-  margin-bottom:5%;
-  
+  margin-top:10%;
+  margin-bottom:10%;
+  display: inline-block;
+  text-align: left;
 }
 
 .works_inner_2 {

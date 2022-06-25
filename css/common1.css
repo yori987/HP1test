@@ -117,6 +117,10 @@ li {
   
 }
 
+.contact_item_left h3 {
+  margin-top:5%;
+}
+
 .contact_item_right {
   text-align:center;
   margin-right:5%;

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+.top_img_recruit img {
+  object-fit: cover;
+  object-position: 0 50%;
+}
+
+/*RECRUIT_1
+------------------*/
+
+.recruit_wrapper_1 {
+  width:80%;
+  margin:10% auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+.recruit_radius {
+  width: 25rem;
+  height: 4rem;
+  background-color: #7FD9D2;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 20px #7FD9D2;
+  z-index: -1;
+  margin:0 auto;
+}
+
+.recruit_radius p {
+  font-size:2rem;
+}
+
+.recruit_sub_ttl {
+  margin-top:8%;
+  font-weight: 400;
+  font-size:1.5rem;
+}
+
+.recruit_txt {
+  width:70%;
+  display: inline-block;
+  text-align: left;
+  margin-top:5%;
+}
+
+/*RECRUIT_2
+------------------*/
+.recruit_wrapper_2 {
+  width:100%;
+  height:auto;
+  background-image: url(../img/recruit_back.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display:flex;
+  justify-content: center;
+}
+
+.recruit_inner_2 {
+  width:80%;
+  margin:10% auto;
+  background-color: #fff;
+}
+
+.recruit_inner_2 h3 {
+  font-size:2rem;
+  font-weight: 400;
+  margin:5% auto;
+  text-align:center;
+}
+
+.recruit_content {
+  width:80%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recruit_item {
+  width:100%;
+  display:flex;
+  margin:5% auto 10% auto;
+  
+}
+
+.recruit_item_left {
+  width:30%;
+
+}
+
+.recruit_item_left img {
+  width: 310px;
+  height: 260px;
+  object-fit: cover;
+  object-position: 70% 0;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.recruit_item_left p {
+  margin-top:5%;
+  text-align:center;
+}
+
+
+.recruit_item_right {
+  width:50%;
+  display: block;
+  text-align: center;
+}
+
+.recruit_item_right p {
+  width:80%;
+  display: inline-block;
+  text-align: left;
+  margin-left:40%;
+  margin-top:5%;
+}
+
+/*RECRUIT_3
+-----------------*/
+
+.recruit_wrapper_3 {
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.recruit_inner_3 {
+  width:50%;
+  border:1px solid #000 ;
+  margin:5% auto;
+  text-align: center;
+}
+
+.recruit_inner_3 h3 {
+  font-size:2rem;
+  margin:15% auto;
+  font-weight: 400;
+}
+
+.recruit_inner_3 p {
+  margin:20% auto;
+  font-size:2rem;
+}
+
+.recruit_btn {
+  width:70%;
+  margin-bottom:10%;
+}
+
+.recruit_btn a {
+  font-size: 1.5rem;
+}
+

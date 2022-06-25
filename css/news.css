@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.top_img_news img {
+  object-fit: cover;
+  object-position: 80% 10%;
+}
 
 .news_all {
   width: 100%;
