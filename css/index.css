@@ -200,9 +200,14 @@
   display:block;
 }
 
-.service_text h4, p {
+.service_text h4, 
+.service_txt {
   text-align:left;
   display:inline-block;
+}
+
+.service_btn {
+  margin:0 auto;
 }
 
 .service_text h4 {
@@ -348,7 +353,7 @@
 
 }
 
-.company_btn p a{
+.company_btn a{
   background-color: #fff;
   color:#000;
 
